@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e0e0e0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0 15px;
+}
+
+.container {
+    text-align: center;
+    max-width: 400px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+}
+
+.link-button {
+    display: block;
+    text-decoration: none;
+    margin: 10px auto;
+    width: calc(100% - 20px);
+    font-size: 1rem;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.link-button i {
+    margin-right: 8px;
+}
+
+.red {
+    background-color: #dc3545;
+}
+
+.red:hover {
+    background-color: #BF2231;
+}
+
+.green {
+    background-color: #28a745;
+}
+
+.green:hover {
+    background-color: #208337;
+}
+
+.dark-blue {
+    background-color: #007bff;
+}
+
+.dark-blue:hover {
+    background-color: #0063CC;
+}
+
+.instagram {
+    background: linear-gradient(45deg, #f8df41, #ff7d42, #ec4e6f, #b63b9b, #6032c8);
+}
+
+.instagram:hover {
+    background: linear-gradient(45deg, #ECCE09, #FF661F, #EA345B, #9A3283, #552DB4);
+}
+
+.orange {
+    background-color: #F58700;
+}
+
+.orange:hover {
+    background-color: #CC7000;
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 15px;
+        box-shadow: none;
+        border: 1px solid #ddd;
+    }
+    .link-button {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 360px) {
+    .link-button {
+        font-size: 0.85rem;
+        padding: 6px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+}
