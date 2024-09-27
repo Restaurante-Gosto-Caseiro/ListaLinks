@@ -1,6 +1,6 @@
 # Lista Links - Restaurante Gosto Caseiro
 
-Bem-vindo ao projeto **Lista Links**! Este é um site que agrupa todos links importantes do Restaurante Sabor Caseiro
+Bem-vindo ao projeto **Lista Links**! Este é um site que agrupa todos links importantes do Restaurante Gosto Caseiro
 
 ## Tecnologias Utilizadas
 
